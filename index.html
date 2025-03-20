@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Heavenly Bites</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Heavenly Bites</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#cake" class="navbar__links" id="cake-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Services</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#contact" class="button" id="contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">
+          Heavenly
+          <br /><span class="hero__name">Bites</span>
+        </h1>
+        <p class="hero__description">Find all your cake estimations</p>
+        <button class="main__btn">
+          <a href="#"> Explore </a>
+        </button>
+      </div>
+    </div>
+
+    <!-- Cake Section -->
+    <div class="main" id="cake">
+      <div class="main__container">
+        <div class="main_img--container">
+          <div class="main__img--card">
+            <i class="fa-solid fa-cake-candles"></i>
+          </div>
+        </div>
+        <div class="main__content">
+          <h1>About Us</h1>
+          <h2>We help you find cake estimates</h2>
+          <p>
+            Heavenly Bites is a cake estimation website that helps you find the
+            best cake for your event.
+          </p>
+          <button class="main__btn">
+            <a href="#"> Find Estimate </a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
