@@ -440,7 +440,33 @@
   }
   .fa-cake-candles,
   .fa-users {
-    transform: translateX(110px);
-    font-size: 15rem;
+    transform: translateX(90px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main__img--card {
+    height: 350px;
+    width: 350px;
+  }
+  .fa-cake-candles,
+  .fa-users {
+    font-size: 16rem;
+    transform: translateX(70px);
+  }
+  .main__content h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  .main__content h2 {
+    font-size: 2rem;
+  }
+  .main__content p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .main__btn {
+    padding: 12px 36px;
+    margin: 2.5rem 0;
   }
 }
