@@ -444,29 +444,3 @@
     font-size: 15rem;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .main__img--card {
-    height: 350px;
-    width: 350px;
-  }
-  .fa-cake-candles,
-  .fa-users {
-    font-size: 4rem;
-  }
-  .main__content h1 {
-    font-size: 2rem;
-    margin-top: 3rem;
-  }
-  .main__content h2 {
-    font-size: 2rem;
-  }
-  .main__content p {
-    font-size: 1.5rem;
-    margin-top: 2rem;
-  }
-  .main__btn {
-    padding: 12px 36px;
-    margin: 2.5rem 0;
-  }
-}
