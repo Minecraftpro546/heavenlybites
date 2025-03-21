@@ -77,6 +77,55 @@
         </div>
       </div>
     </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <div class="services__container">
+        <h1>Cake Estimate Form</h1>
+        <form id="cakeForm">
+          <div class="form-group">
+            <label for="size">Cake Size:</label>
+            <select id="size" name="size">
+              <option value="6">6 inches</option>
+              <option value="8">8 inches</option>
+              <option value="10">10 inches</option>
+              <option value="12">12 inches</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="flavor">Flavor:</label>
+            <select id="flavor" name="flavor">
+              <option value="biscoff">Biscoff</option>
+              <option value="chocolate">Chocolate</option>
+              <option value="red velvet">Red Velvet</option>
+              <option value="vanilla">Vanilla</option>
+              <option value="lemon">Lemon</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="tires">Amount of Tires:</label>
+            <select id="tires" name="tires">
+              <option value="1">1 Tire</option>
+              <option value="2">2 Tires</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="decorations">Additional Fondant Work:</label>
+            <input
+              type="checkbox"
+              id="decorations"
+              name="decorations"
+              value="yes"
+            />
+            Yes
+          </div>
+          <button type="button" id="estimate-btn" onclick="calculateEstimate()"> <span>Estimate</span></button>
+            Get Estimate
+          </button>
+        </form>
+        <div class="estimate" id="estimate"></div>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
