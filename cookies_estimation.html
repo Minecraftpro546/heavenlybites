@@ -1,0 +1,63 @@
+<!-- cookies.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Estimation | Heavenly Bites</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+    <h1>Heavenly Bites</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="estimation-form">
+    <h1 style="text-align: center">Cookie Estimation</h1>
+    <form id="cookieForm">
+        <label for="cookieQuantity">Order Size (0–24):</label>
+        <input type="number" id="cookieQuantity" name="cookieQuantity" min="0" max="24" required />
+
+        <label for="cookieFlavor">Select Flavor:</label>
+        <select id="cookieFlavor" required>
+            <option value="">-- Choose Flavor --</option>
+            <option value="biscoff">Biscoff</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="red velvet">Red Velvet</option>
+            <option value="vanilla">Vanilla</option>
+            <option value="nutella">Nutella</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="raspberry">Raspberry</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="pineapple">Pineapple</option>
+            <option value="butterscotch">Butterscotch</option>
+            <option value="cookies and cream">Cookies and Cream</option>
+            <option value="caramel">Caramel</option>
+            <option value="coffee cake">Coffee Cake</option>
+            <option value="choco-coconut">Choco-Coconut</option>
+            <option value="deluce de leche">Deluce De Leche</option>
+            <option value="stawberry nutella">Stawberry Nutella</option>
+            <option value="walnut-chocolate">Walnut Chocolate</option>
+            <option value="gulabjamun">Gulabjamun</option>
+            <option value="rasmalai">Rasmalai</option>
+            <option value="mango">Mango</option>
+            <option value="pistachio">Pistachio</option>
+        </select>
+
+        <button type="button">Estimate Price</button>
+
+        <div id="cookieEstimate">Estimated Price: $--</div>
+        <a href="contact.html" class="contact-button">Contact Us</a>
+    </form>
+
+
+</section>
+</body>
+</html>

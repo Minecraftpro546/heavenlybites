@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Heavenly Bites</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 4rem 2rem;
+      background-color: #fffaf5;
+    }
+
+    .service-card {
+      background: #fff7f0;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .service-card h2 {
+      margin-bottom: 1rem;
+      color: #cc5c34;
+    }
+
+    .service-card p {
+      color: #555;
+    }
+
+    .service-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #cc5c34;
+      color: #fff;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .service-card a:hover {
+      background: #a84327;
+    }
+
+  </style>
+</head>
+<body>
+<header>
+<h1>Heavenly Bites</h1>
+  <nav>
+    <a href="index.html#home">Home</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#gallery">Gallery</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="services-container">
+  <div class="service-card">
+    <h2>Cake Estimation</h2>
+    <p>Choose tiers, flavors, sizes, and get a custom price estimate.</p>
+    <a href="cake_estimation.html">Estimate Cake</a>
+  </div>
+
+  <div class="service-card">
+    <h2>Brownie Estimation</h2>
+    <p>Select from delicious brownie flavors and sizes for a perfect box.</p>
+    <a href="brownies_estimation.html">Estimate Brownies</a>
+  </div>
+
+  <div class="service-card">
+    <h2>Cookie Estimation</h2>
+    <p>Order cookies by quantity and your favorite flavors.</p>
+    <a href="cookies_estimation.html">Estimate Cookies</a>
+  </div>
+</section>
+</body>
+</html>
