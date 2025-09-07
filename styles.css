@@ -115,6 +115,7 @@ form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
 form textarea {
+    display: block;
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
